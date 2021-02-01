@@ -1,0 +1,10 @@
+@import "./scss/_variables.scss";
+@import "~bootstrap/scss/bootstrap";
+
+.app {
+  color: $black;
+  .layout {
+    padding: 0;
+    position: relative;
+  }
+}

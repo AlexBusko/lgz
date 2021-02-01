@@ -1,0 +1,31 @@
+@import "../../scss/_variables.scss";
+.jumbo {
+  margin-top: -120px;
+  padding-top: 200px;
+  background: radial-gradient(
+    40.15% 75.01% at 80.78% 100.86%,
+    #4b5a6d 0%,
+    #191f27 100%
+  );
+
+  .home {
+    display: flex;
+    justify-content: space-around;
+    .motto {
+      margin-top: 80px;
+      font-weight: 600;
+      font-size: 64px;
+      line-height: 72px;
+      color: #ffffff;
+      span {
+        color: $gold;
+      }
+    }
+    .description {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 36px;
+      color: #ffffff;
+    }
+  }
+}

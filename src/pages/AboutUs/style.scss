@@ -1,0 +1,17 @@
+@import "../../scss/_variables.scss";
+
+.about-us {
+  margin-top: 143px;
+
+  h1 {
+    font-size: 32px;
+    line-height: 72px;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    color: $gray;
+  }
+}

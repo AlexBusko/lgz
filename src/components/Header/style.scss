@@ -1,0 +1,50 @@
+@import "../../scss/variables";
+
+.header {
+  position: sticky;
+  top: 30px;
+  z-index: 1000;
+  .nav {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #ffffff;
+    margin: 0 64px 0 auto;
+    text-decoration: none;
+  }
+
+  .black {
+    color: $black;
+  }
+  .active-nav {
+    color: $gold;
+    font-weight: 700;
+    padding-bottom: 16px;
+    border-bottom: 4px solid $gold;
+  }
+}
+
+.header-white {
+  position: sticky;
+  top: 30px;
+  background-color: white;
+  z-index: 1000;
+  .nav {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #ffffff;
+    margin: 0 64px 0 auto;
+    text-decoration: none;
+  }
+
+  .black {
+    color: $black;
+  }
+  .active-nav {
+    color: $gold;
+    font-weight: 700;
+    padding-bottom: 16px;
+    border-bottom: 4px solid $gold;
+  }
+}

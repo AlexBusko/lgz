@@ -1,0 +1,8 @@
+@import "./variables";
+
+$headings-font-family: "Raleway", sans-serif;
+$headings-font-weight: 700;
+$headings-color: $black;
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
