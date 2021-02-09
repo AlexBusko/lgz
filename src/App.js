@@ -6,6 +6,7 @@ import {
   HashRouter as Router,
   Switch,
   Route,
+  Redirect
 
 } from "react-router-dom";
 import Home from "./pages/Home/Home.js"
@@ -24,22 +25,26 @@ function App() {
         <Container fluid className="layout">
           <Header />
           <Switch>
-            <Route path="/home">
+            <Route exact path="/home">
               <Home />
               <Stores />
             </Route>
-            <Route path="/aboutus">
+            <Route exact path="/aboutus">
               <AboutUs />
             </Route>
-            <Route path="/stores">
+            <Route exact path="/stores">
               <Stores />
             </Route>
-            <Route path="/documents">
+            <Route exact path="/documents">
               <Documents />
             </Route>
-            <Route path="/contacts">
+            <Route exact path="/contacts">
               <Contacts />
             </Route>
+            <Route exact path="/">
+              <Redirect to="/home" />
+            </Route>
+            
           </Switch>
         </Container>
       </Router>
