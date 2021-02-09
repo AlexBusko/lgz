@@ -1,4 +1,5 @@
 import React, { useState, useLayoutEffect } from "react"
+import { List } from 'react-bootstrap-icons'
 import { Navbar, Nav, Container} from 'react-bootstrap';
 import {
     NavLink, useLocation 
@@ -29,7 +30,10 @@ const Header = () => {
 
         <Navbar className={navbar ? "header-white" : "header"} expand="md"  >
             <Container >
-                <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto" />
+                <Navbar.Toggle 
+                children={<List color="#c09470" fontSize="50" border="none"/>}   
+                aria-controls="basic-navbar-nav" 
+                className="ml-auto" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav >
                         <NavLink to="/home" activeClassName="active-nav" className={color ? "nav" : "nav black "}  >Продукція</NavLink>

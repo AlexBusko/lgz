@@ -4,5 +4,9 @@ $headings-font-family: "Raleway", sans-serif;
 $headings-font-weight: 700;
 $headings-color: $black;
 
+.navbar-light .navbar-toggler {
+border: none;
+}
+
 /* import bootstrap to set changes */
 @import "~bootstrap/scss/bootstrap";
