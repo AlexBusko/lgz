@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/lgz/static/css/main.8ce09f02.chunk.css",
-    "main.js": "/lgz/static/js/main.19837afd.chunk.js",
-    "main.js.map": "/lgz/static/js/main.19837afd.chunk.js.map",
-    "runtime-main.js": "/lgz/static/js/runtime-main.e35fc438.js",
-    "runtime-main.js.map": "/lgz/static/js/runtime-main.e35fc438.js.map",
-    "static/css/2.31ff0196.chunk.css": "/lgz/static/css/2.31ff0196.chunk.css",
-    "static/js/2.c6bac6c8.chunk.js": "/lgz/static/js/2.c6bac6c8.chunk.js",
-    "static/js/2.c6bac6c8.chunk.js.map": "/lgz/static/js/2.c6bac6c8.chunk.js.map",
-    "static/js/3.0ac7cdad.chunk.js": "/lgz/static/js/3.0ac7cdad.chunk.js",
-    "static/js/3.0ac7cdad.chunk.js.map": "/lgz/static/js/3.0ac7cdad.chunk.js.map",
+    "main.css": "/lgz/static/css/main.bef1afe9.chunk.css",
+    "main.js": "/lgz/static/js/main.121dd41c.chunk.js",
+    "main.js.map": "/lgz/static/js/main.121dd41c.chunk.js.map",
+    "runtime-main.js": "/lgz/static/js/runtime-main.d6d476ac.js",
+    "runtime-main.js.map": "/lgz/static/js/runtime-main.d6d476ac.js.map",
+    "static/css/2.150d169a.chunk.css": "/lgz/static/css/2.150d169a.chunk.css",
+    "static/js/2.78adc19b.chunk.js": "/lgz/static/js/2.78adc19b.chunk.js",
+    "static/js/2.78adc19b.chunk.js.map": "/lgz/static/js/2.78adc19b.chunk.js.map",
+    "static/js/3.061767d7.chunk.js": "/lgz/static/js/3.061767d7.chunk.js",
+    "static/js/3.061767d7.chunk.js.map": "/lgz/static/js/3.061767d7.chunk.js.map",
     "index.html": "/lgz/index.html",
-    "static/css/2.31ff0196.chunk.css.map": "/lgz/static/css/2.31ff0196.chunk.css.map",
-    "static/css/main.8ce09f02.chunk.css.map": "/lgz/static/css/main.8ce09f02.chunk.css.map",
-    "static/js/2.c6bac6c8.chunk.js.LICENSE.txt": "/lgz/static/js/2.c6bac6c8.chunk.js.LICENSE.txt",
+    "static/css/2.150d169a.chunk.css.map": "/lgz/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.bef1afe9.chunk.css.map": "/lgz/static/css/main.bef1afe9.chunk.css.map",
+    "static/js/2.78adc19b.chunk.js.LICENSE.txt": "/lgz/static/js/2.78adc19b.chunk.js.LICENSE.txt",
     "static/media/balsamico.a97352d7.svg": "/lgz/static/media/balsamico.a97352d7.svg",
     "static/media/cetto.94143c3c.svg": "/lgz/static/media/cetto.94143c3c.svg",
     "static/media/champion.a88cbf03.svg": "/lgz/static/media/champion.a88cbf03.svg",
@@ -36,10 +36,10 @@
     "static/media/zoloto.c04c67d1.svg": "/lgz/static/media/zoloto.c04c67d1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e35fc438.js",
-    "static/css/2.31ff0196.chunk.css",
-    "static/js/2.c6bac6c8.chunk.js",
-    "static/css/main.8ce09f02.chunk.css",
-    "static/js/main.19837afd.chunk.js"
+    "static/js/runtime-main.d6d476ac.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.78adc19b.chunk.js",
+    "static/css/main.bef1afe9.chunk.css",
+    "static/js/main.121dd41c.chunk.js"
   ]
 }
