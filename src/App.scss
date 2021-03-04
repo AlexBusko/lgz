@@ -7,4 +7,13 @@
     padding: 0;
     position: relative;
   }
+
 }
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: $gold; 
+  
+}
+
