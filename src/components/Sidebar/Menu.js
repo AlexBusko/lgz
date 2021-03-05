@@ -17,7 +17,7 @@ const Menu = ({ item }) => {
         <Link to={item.path}>
           <span> {item.title}</span>
         </Link>
-        <ChevronRight className="arrow" />
+        <ChevronRight className={menu ? "active arrow" : "arrow"}/>
       </li>
       {menu &&
         item.menu.map((item, index) => { return <SubMenu  key={index}  item={item}/>})}

@@ -1,6 +1,6 @@
 @import "../../scss/variables";
 
-.nav-menu {
+.sidebar {
   z-index: 1100;
   background-color: white;
   width: 400px;
@@ -11,7 +11,7 @@
   top: 0;
   left: -100%;
   transition: 850ms;
-  overflow-y: auto;
+  overflow-x: hidden;
   &.active {
     left: 0;
     transition: 350ms;
@@ -21,9 +21,10 @@
   }
 }
 
-.nav-menu-items {
+.sidebar-items {
   padding: 0;
   width: 100%;
+
   .nav-item {
     display: flex;
     justify-content: flex-start;
@@ -33,22 +34,29 @@
     border-bottom: 1px solid $light-gray;
     padding: 24px 20px;
 
+    .pl{
+      padding-left: 15px;
+    }
+
     .arrow {
       color: $gold;
       font-size: 18px;
+      transition: 500ms;
     }
+
+    .active {
+      transition: 500ms;
+      transform: rotate(+90deg);
+    }
+
     &:hover {
+      background-color: #fff4ec;
       .arrow {
         transition: 500ms;
         transform: rotate(+90deg);
       }
     }
-    // &:active {
-    //   .arrow {
-    //     transition: 500ms;
-    //     transform: rotate(+90deg);
-    //   }
-    // }
+ 
     a {
       text-decoration: none;
       font-size: 18px;
@@ -60,7 +68,7 @@
       color: $black;
     }
   }
-  .sub-menu {
+  .sidebar-card {
     height: 185px;
     padding: 25px 20px;
     border-bottom: 1px solid $light-gray;
