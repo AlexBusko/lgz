@@ -1,6 +1,7 @@
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./scss/custom.scss";
+import { connect } from "react-redux";
 import { Container } from "react-bootstrap";
 import {
   HashRouter as Router,
@@ -17,15 +18,15 @@ import Documents from "./pages/Documents/Documents";
 import Production from "./pages/Production/Production";
 import Sidebar from "./components/Sidebar/Sidebar";
 
-function App() {
+const App = ({visible}) => {
   return (
     <div className="app">
       <Router basename="/">
-        <Container fluid className="layout">
+        <Container fluid className={visible ? "hassidebar layout" : "layout"}>
           <Header />
           <Sidebar />
           <Switch>
-            <Route exact path="/production">
+            <Route exact path="/production/:id">
               <Production />
             </Route>
             <Route exact path="/home">
@@ -53,4 +54,11 @@ function App() {
   );
 }
 
-export default App;
+
+const mapStateToProps = (state) => {
+  return {
+    visible: state.sidebar.visible,
+  };
+};
+
+export default connect(mapStateToProps, null)(App);

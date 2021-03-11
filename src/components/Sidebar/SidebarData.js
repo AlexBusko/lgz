@@ -75,11 +75,16 @@ export const SidebarData = [
         path: "/",
         subNav: [
           {
+            id: "01",
             title: "Володар преміум",
-            path: "/overview/revenue",
+            path: "/production/01",
             image: <VolodarPremium />,
             vol: "0.75л",
             alc: "40%",
+            composition:
+              "Вода питна підготовлена, спирт етиловий ректифікований “Люкс”, мед натуральний.",
+            description:
+              "Традиційно чоловіча горілка з яскравою індивідуальністю та почуттям власної гідності. Скуштувавши горілку «Володар преміум» Ви відкриєте для себе її багатий внутрішній світ, відчуєте чіткий та самовпевнений смак, оціните довершеність та сміливість композиції.",
           },
         ],
       },
@@ -87,16 +92,18 @@ export const SidebarData = [
         title: "Золото карпат",
         path: "/products",
         subNav: [
-          {
+          { 
+            id: "02",
             title: "Золото Карпат",
-            path: "/overview/users",
+            path: "/production/02",
             image: <ZolotoKarpat />,
             vol: "0.75л",
             alc: "40%",
           },
-          {
+          { 
+            id: "03",
             title: "Львівський Скарб",
-            path: "/overview/users",
+            path: "/production/03",
             image: <LvivskiySkarb />,
             vol: "0.75л",
             alc: "40%",
@@ -155,6 +162,7 @@ export const SidebarData = [
         path: "/messages",
         subNav: [
           {
+            id: "4",
             title: "Преміум Львів",
             path: "/overview/users",
             image: <PremiumLviv />,
@@ -162,6 +170,7 @@ export const SidebarData = [
             alc: "40%",
           },
           {
+            id: "5",
             title: "Преміум Львів Золото",
             path: "/overview/users",
             image: <PremiumLvivGold />,

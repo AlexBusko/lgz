@@ -1,8 +1,12 @@
 @import "../../scss/_variables.scss";
 
-.production{
-    color: $gold;
-    display: flex;
-    padding-top: 200px;
-    justify-content: center;
+.production {
+  display: flex;
+  padding-top: 100px;
+  .image {
+    color: yellow;
+  }
+  .info {
+    color: yellow;
+  }
 }
