@@ -9,18 +9,18 @@ const Menu = ({ item }) => {
 
   const showMenu = () => {
     setMenu(!menu);
-    console.log(menu)
+    console.log(menu);
   };
   return (
     <>
       <li className="nav-item" onClick={item.menu && showMenu}>
-        <Link to={item.path}>
-          <span> {item.title}</span>
-        </Link>
-        <ChevronRight className={menu ? "active arrow" : "arrow"}/>
+        <span> {item.title}</span>
+        <ChevronRight className={menu ? "active arrow" : "arrow"} />
       </li>
       {menu &&
-        item.menu.map((item, index) => { return <SubMenu  key={index}  item={item}/>})}
+        item.menu.map((item, index) => {
+          return <SubMenu key={index} item={item} />;
+        })}
     </>
   );
 };

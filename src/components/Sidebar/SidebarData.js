@@ -65,16 +65,23 @@ import { ReactComponent as Spyrtovyj } from "../../assets/icons/bottles/Vinegars
 import { ReactComponent as Jabluchnyj } from "../../assets/icons/bottles/Vinegars/jabluchnyj.svg";
 import { ReactComponent as Balsamico } from "../../assets/icons/bottles/Vinegars/balsamico.svg";
 
-import original from "../../assets/images/bottles/original.png";
+import vozhak_original from "../../assets/images/bottles/vozhak_original.png";
+import vozhak_special from "../../assets/images/bottles/vozhak_special.png";
+import vozhak_classic from "../../assets/images/bottles/vozhak_classic.png";
+
+import volodar_vertep from "../../assets/images/bottles/volodar_vertep.png";
+import volodar from "../../assets/images/bottles/volodar.png";
+import volodar_zolotekilce from "../../assets/images/bottles/volodar_zolotekilce.png";
+import volodar_lvivska from "../../assets/images/bottles/volodar_lvivska.png";
+import volodar_slava from "../../assets/images/bottles/volodar_slava.png";
+import volodar_stolova from "../../assets/images/bottles/volodar_stolova.png";
 
 export const SidebarData = [
   {
     title: "Горілки преміальні",
-    path: "/",
     menu: [
       {
         title: "Володар преміум",
-        path: "/",
         subNav: [
           {
             id: "01",
@@ -92,7 +99,6 @@ export const SidebarData = [
       },
       {
         title: "Золото карпат",
-        path: "/products",
         subNav: [
           {
             id: "02",
@@ -114,7 +120,6 @@ export const SidebarData = [
       },
       {
         title: "Львівська горілка",
-        path: "/reports",
         subNav: [
           {
             title: "Давня легенда",
@@ -190,7 +195,6 @@ export const SidebarData = [
       },
       {
         title: "Слава преміум",
-        path: "/support",
         subNav: [
           {
             title: "Слава преміум",
@@ -203,7 +207,6 @@ export const SidebarData = [
       },
       {
         title: "Чемпіон",
-        path: "/products",
         subNav: [
           {
             title: "Чемпіон",
@@ -223,84 +226,132 @@ export const SidebarData = [
       {
         title: "Вожак",
         subNav: [
-          { id: "9",
+          {
+            id: "vozhak_classic",
             title: "Вожак класичний",
-            path: "production/horilky/9",
+            path: "/production/horilky/vozhak_classic",
             icon: <Classic />,
             vol: "0.5л, 0.7л",
             alc: "40%",
+            image: vozhak_classic,
+            description:
+              'Класичні 40°, ідеальна прозорість, унікальний смак та аромат горілки Вожак Класична - із кришталево чистої підготовленої води, глюкози та спирту "Люкс", виготовлена на 100% за класичною технологією.',
+            composition:
+              "Вода питна підготовлена, спирт етиловий ректифікований “Люкс”, глюкоза.",
           },
           {
-            id: "10",
+            id: "vozhak_original",
             title: "Вожак оригінальний",
-            path: "production/horilky/10",
+            path: "/production/horilky/vozhak_original",
             icon: <Original />,
             vol: "0.5л, 0.7л",
             alc: "40%",
-            image: original,
-            description: 'Горілка Вожак Оригінальна має оксамитовий смак із відтінком терпкості.  Виготовлена з додаванням кропу та житнього солоду на основі спирту "Люкс" та спеціально підготовленої води, що видобувається в передгір`ї українських Карпат.',
-            composition: 'Вода питна підготовлена, спирт етиловий ректифікований “Люкс”, цукор, ароматні спирти житнього солоду та кропу запашного.',
+            image: vozhak_original,
+            description:
+              'Горілка Вожак Оригінальна має оксамитовий смак із відтінком терпкості.  Виготовлена з додаванням кропу та житнього солоду на основі спирту "Люкс" та спеціально підготовленої води, що видобувається в передгір`ї українських Карпат.',
+            composition:
+              "Вода питна підготовлена, спирт етиловий ректифікований “Люкс”, цукор, ароматні спирти житнього солоду та кропу запашного.",
           },
           {
+            id: "vozhak_special",
             title: "Вожак особливий",
-            path: "/horilky/vozhak/special",
+            path: `/production/horilky/vozhak_special`,
             icon: <Special />,
             vol: "0.5л, 0.7л",
             alc: "40%",
+            image: vozhak_special,
+            description:
+              'Відмінна особливість горілки Вожак Особлива - ідеальна прозорість. Виготовлена на основі високоякісного зернового спирту "Люкс", підготовленої води, добутої в передгірʼї Карпат, з додаванням кмину та житніх сухарів.',
+            composition:
+              "Вода питна підготовлена, спирт етиловий ректифікований “Люкс”, цукор, ароматні спирти житніх сухарів та кмину.",
           },
         ],
       },
       {
         title: "Володар",
-        path: "",
         subNav: [
           {
+            id: "volodar_vertep",
             title: "Вертеп",
-            path: "",
+            path: "/production/horilky/volodar_vertep",
             icon: <Vertep />,
             vol: "0.5л",
             alc: "40%",
+            image: volodar_vertep,
+            description:
+              "Йде вертеп і колядує, Під ногами сніг скрипить. Йде вертеп і колядує, Зірка радісна тремтить. І ні гніву, ні сварки, Тільки співи та жарти. Дружно колядуйте, Й наливайте чарки!",
+            composition:
+              "Вода питна підготовлена, спирт етиловий ректифікований “Вищої очистки”, ароматні спирти материнки, плодів анісу звичайного, плодів ялівцю.",
           },
           {
+            id: "volodar",
             title: "Володар",
-            path: "",
+            path: "/production/horilky/volodar",
             icon: <Volodar />,
             vol: "0.05л, 0.25л, 0.375л, 0.5л, 0.7л, 1.75л",
             alc: "40%",
+            image: volodar,
+            description:
+              'Традиційно чоловіча горілка з яскраво вираженою індивідуальністю. Ця горілка є візитною карткою Львівського лікеро-горілчаного заводу. Скуштувавши горілку „Володар", Ви відкриєте для себе багатство її смаку, відчуєте її міцний та витончений букет, оціните довершеність та сміливість композиції з використанням меду та мʼяти',
+            composition:
+              "Вода питна підготовлена, спирт етиловий ректифікований “Екстра”, мед натуральний, м’ята перцева.",
           },
           {
+            id: "volodar_zolotekilce",
             title: "Золоте кільце",
-            path: "",
+            path: "/production/horilky/volodar_zolotekilce",
             icon: <ZoloteKilce />,
             vol: "0.25л, 0.5л",
             alc: "40%",
+            image: volodar_zolotekilce,
+            description:
+              "Особлива горілка виготовлена за старовинними українськими рецептами зі спирту найвищої якості з додаванням натурального меду та мʼяти. Львівська вразить вас своїм оригінальним та приємним смаком. Мʼята, що входить до складу цієї горілки, створює ледь вловиме відчуття прохолоди.",
+            composition:
+              "Вода питна підготовлена, спирт етиловий ректифікований «Вищої очистки», м’ятна олія, ментол.",
           },
           {
+            id: "volodar_lvivska",
             title: "Львівська",
-            path: "",
+            path: "/production/horilky/volodar_lvivska",
             icon: <Lvivska />,
             vol: "0.25л, 0.5л, 1.75л",
             alc: "40%",
+            image: volodar_lvivska,
+            description:
+              'Готується за класичною технологією з використанням високоякісного спирту класу "Люкс" і спеціально підготовленої води. Цей напій задовільнить найвибагливіші смаки і наповнить життєдайною енергією.',
+            composition:
+              "Вода питна підготовлена, спирт етиловий ректифікований «Вищої очистки», м’ятна олія, ментол.",
           },
           {
+            id: "volodar_slava",
             title: "Слава",
-            path: "",
+            path: "/production/horilky/volodar_slava",
             icon: <Slava />,
             vol: "0.05л, 0.25л, 0.375л 0.5л, 0.7л, 1.75л",
             alc: "40%",
+            image: volodar_slava,
+            description:
+              'Одна з найкращих горілок, що виготовляються на підприємстві. Її витончений смак гармонійно доповнить Ваше застілля і звеселить атмосферу будь-якого свята. Особливістю рецептури цієї горілки є "чистота горілчаної породи", що досягається завдяки унікальним технологіям очищення та поєднанню зернового спирту класу „Екстра" і помʼякшеної води.',
+            composition:
+              "Вода питна підготовлена, спирт етиловий ректифікований “Екстра”, цукор.",
           },
           {
+            id: "volodar_stolova",
             title: "Столова",
-            path: "",
+            path: "/production/horilky/volodar_stolova",
             icon: <Stolova />,
             vol: "0.05л, 0.25л, 0.375л 0.5л, 0.7л, 1.75л",
             alc: "40%",
+            image: volodar_stolova,
+            description:
+              'Весь багатий досвід, нагромаджений за довгі роки виробництва горілок, втілено в оригінальній рецептурі горілки „Столова". Цій горілці притаманні витриманий смак та характерна мʼякість, що досягаються додаванням до її складу цукрового сиропу. Ви неодмінно оціните майстерність авторів її рецепту, відчувши, як класична композиція поволі змінюється мʼяким присмаком.',
+            composition:
+              "Вода питна підготовлена, спирт етиловий ректифікований “Екстра”, цукор.",
           },
         ],
       },
       {
         title: "Галицька",
-        path: "",
         subNav: [
           {
             title: "Галицька",
@@ -334,7 +385,6 @@ export const SidebarData = [
       },
       {
         title: "Лемберг",
-        path: "",
         subNav: [
           {
             title: "Лемберг",
@@ -361,7 +411,6 @@ export const SidebarData = [
       },
       {
         title: "Львівська горілка",
-        path: "",
         subNav: [
           {
             title: "Львівська горілка Легка",
@@ -409,7 +458,6 @@ export const SidebarData = [
       },
       {
         title: "Московська особлива",
-        path: "",
         subNav: [
           {
             title: "Московська особлива",
@@ -422,7 +470,6 @@ export const SidebarData = [
       },
       {
         title: "Перфект",
-        path: "",
         subNav: [
           {
             title: "Перфект Айс Діамант",
@@ -470,7 +517,6 @@ export const SidebarData = [
       },
       {
         title: "Столична",
-        path: "",
         subNav: [
           {
             title: "Столична",
@@ -483,7 +529,6 @@ export const SidebarData = [
       },
       {
         title: "Українська оригінальна",
-        path: "",
         subNav: [
           {
             title: "Українська оригінальна",
@@ -537,11 +582,9 @@ export const SidebarData = [
   },
   {
     title: "Настоянки та Наливки",
-    path: "/",
     menu: [
       {
         title: "Лимонна",
-        path: "",
         subNav: [
           {
             title: "Лимонна",
@@ -554,7 +597,6 @@ export const SidebarData = [
       },
       {
         title: "Льівська медова з перцем",
-        path: "",
         subNav: [
           {
             title: "Льівська медова з перцем",
@@ -567,7 +609,6 @@ export const SidebarData = [
       },
       {
         title: "Мисливська",
-        path: "",
         subNav: [
           {
             title: "Мисливська",
@@ -580,7 +621,6 @@ export const SidebarData = [
       },
       {
         title: "Українська з перцем",
-        path: "",
         subNav: [
           {
             title: "",
@@ -593,7 +633,6 @@ export const SidebarData = [
       },
       {
         title: "О Лімоне",
-        path: "",
         subNav: [
           {
             title: "О Лімоне",
@@ -606,7 +645,6 @@ export const SidebarData = [
       },
       {
         title: "Слив'янка Українська",
-        path: "",
         subNav: [
           {
             title: "Слив'янка Українська",
@@ -619,7 +657,6 @@ export const SidebarData = [
       },
       {
         title: "Спотикач Український",
-        path: "",
         subNav: [
           {
             title: "Спотикач Український",
@@ -632,7 +669,6 @@ export const SidebarData = [
       },
       {
         title: "Зубрiвка",
-        path: "",
         subNav: [
           {
             title: "Зубрiвка",
@@ -645,7 +681,6 @@ export const SidebarData = [
       },
       {
         title: "Перцовка",
-        path: "",
         subNav: [
           {
             title: "Перцовка",
@@ -660,11 +695,11 @@ export const SidebarData = [
   },
   {
     title: "Бальзами та Лікери",
-    path: "/support",
+
     menu: [
       {
         title: "Дністер",
-        path: "",
+
         subNav: [
           {
             title: "Дністер",
@@ -677,7 +712,7 @@ export const SidebarData = [
       },
       {
         title: "Вишневий",
-        path: "",
+
         subNav: [
           {
             title: "Вишневий",
@@ -690,7 +725,7 @@ export const SidebarData = [
       },
       {
         title: "Кавовий",
-        path: "",
+
         subNav: [
           {
             title: "Кавовий",
@@ -703,7 +738,6 @@ export const SidebarData = [
       },
       {
         title: "Лимонний",
-        path: "",
         subNav: [
           {
             title: "Лимонний",
@@ -716,7 +750,6 @@ export const SidebarData = [
       },
       {
         title: "Старий ринок",
-        path: "",
         subNav: [
           {
             title: "Старий ринок",
@@ -729,7 +762,6 @@ export const SidebarData = [
       },
       {
         title: "Шоколадний",
-        path: "",
         subNav: [
           {
             title: "Шоколадний",

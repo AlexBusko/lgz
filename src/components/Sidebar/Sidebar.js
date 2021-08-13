@@ -9,7 +9,7 @@ const Sidebar = ({ visible }) => {
     <>
       <nav className={visible ? "sidebar active" : "sidebar"}>
         <ul className="sidebar-items">
-          {SidebarData.map((item, index) => 
+          {SidebarData.map((item, index) =>
             <Menu key={index} item={item} />
           )}
         </ul>
