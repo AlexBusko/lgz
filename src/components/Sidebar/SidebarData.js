@@ -1,69 +1,71 @@
-import { ReactComponent as DavnyaLegenda } from "../../assets/bottles/HorilkyPremium/LvivskaGorilka/davnya-legenda.svg";
-import { ReactComponent as LvivskaPrem } from "../../assets/bottles/HorilkyPremium/LvivskaGorilka/lvivska-prem.svg";
-import { ReactComponent as Zolotusta } from "../../assets/bottles/HorilkyPremium/LvivskaGorilka/zolotusta.svg";
-import { ReactComponent as Sriblyasta } from "../../assets/bottles/HorilkyPremium/LvivskaGorilka/sriblyasta.svg";
-import { ReactComponent as LvivskiySkarb } from "../../assets/bottles/HorilkyPremium/ZolotoKarpat/lvivisky-skarb.svg";
-import { ReactComponent as ZolotoKarpat } from "../../assets/bottles/HorilkyPremium/ZolotoKarpat/zoloto-karpat.svg";
-import { ReactComponent as VolodarPremium } from "../../assets/bottles/HorilkyPremium/Volodar/volodar.svg";
-import { ReactComponent as LvivskaYuvileuna } from "../../assets/bottles/HorilkyPremium/LvivskaYuvileuna/yuvileyna.svg";
-import { ReactComponent as PremiumLviv } from "../../assets/bottles/HorilkyPremium/PremiumLviv/premium_lviv.svg";
-import { ReactComponent as PremiumLvivGold } from "../../assets/bottles/HorilkyPremium/PremiumLviv/premium_lviv_gold.svg";
-import { ReactComponent as PremiumLvivPlatinum } from "../../assets/bottles/HorilkyPremium/PremiumLviv/premiun_lviv_platinum.svg";
-import { ReactComponent as SlavaPremium } from "../../assets/bottles/HorilkyPremium/SlavaPremium/slava_premium.svg";
-import { ReactComponent as Champion } from "../../assets/bottles/HorilkyPremium/Champion/champion.svg";
-import { ReactComponent as Classic } from "../../assets/bottles/Horilky/Vozhak/classic.svg";
-import { ReactComponent as Original } from "../../assets/bottles/Horilky/Vozhak/original.svg";
-import { ReactComponent as Special } from "../../assets/bottles/Horilky/Vozhak/special.svg";
-import { ReactComponent as Vertep } from "../../assets/bottles/Horilky/Volodar/vertep.svg";
-import { ReactComponent as Volodar } from "../../assets/bottles/Horilky/Volodar/volodar.svg";
-import { ReactComponent as Lvivska } from "../../assets/bottles/Horilky/Volodar/lvivska.svg";
-import { ReactComponent as ZoloteKilce } from "../../assets/bottles/Horilky/Volodar/zolote_kilce.svg";
-import { ReactComponent as Stolova } from "../../assets/bottles/Horilky/Volodar/stolova.svg";
-import { ReactComponent as Halytska } from "../../assets/bottles/Horilky/Halytska/halytska.svg";
-import { ReactComponent as HalytskaZMjatoy } from "../../assets/bottles/Horilky/Halytska/halytska_z_mjatoy.svg";
-import { ReactComponent as HalytskaZMedom } from "../../assets/bottles/Horilky/Halytska/halytska_z_medom.svg";
-import { ReactComponent as HalytskaNaTravah } from "../../assets/bottles/Horilky/Halytska/halytska_na_travah.svg";
-import { ReactComponent as Lemberg } from "../../assets/bottles/Horilky/Lemberg/lemberg.svg";
-import { ReactComponent as Velychna } from "../../assets/bottles/Horilky/Lemberg/velychna.svg";
-import { ReactComponent as Vyshukana } from "../../assets/bottles/Horilky/Lemberg/vyshukana.svg";
-import { ReactComponent as Berezova } from "../../assets/bottles/Horilky/LvivskaHorilka/berezova.svg";
-import { ReactComponent as Holodna } from "../../assets/bottles/Horilky/LvivskaHorilka/holodna.svg";
-import { ReactComponent as Lehka } from "../../assets/bottles/Horilky/LvivskaHorilka/lehka.svg";
-import { ReactComponent as Micna } from "../../assets/bottles/Horilky/LvivskaHorilka/micna.svg";
-import { ReactComponent as Pravdyva } from "../../assets/bottles/Horilky/LvivskaHorilka/pravdyva.svg";
-import { ReactComponent as Shljahetna } from "../../assets/bottles/Horilky/LvivskaHorilka/shljahetna.svg";
-import { ReactComponent as Moskovska } from "../../assets/bottles/Horilky/MoskovskaOsoblyva/moskovska.svg";
-import { ReactComponent as Diamond } from "../../assets/bottles/Horilky/Perfect/diamond.svg";
-import { ReactComponent as Lemon } from "../../assets/bottles/Horilky/Perfect/lemon.svg";
-import { ReactComponent as Orange } from "../../assets/bottles/Horilky/Perfect/orange.svg";
-import { ReactComponent as Premium } from "../../assets/bottles/Horilky/Perfect/premium.svg";
-import { ReactComponent as Silver } from "../../assets/bottles/Horilky/Perfect/silver.svg";
-import { ReactComponent as Prestige } from "../../assets/bottles/Horilky/Perfect/prestige.svg";
-import { ReactComponent as Slava } from "../../assets/bottles/Horilky/Volodar/slava.svg";
-import { ReactComponent as Stolychna } from "../../assets/bottles/Horilky/Stolychna/stolychna.svg";
-import { ReactComponent as UkrainskaOryginalna } from "../../assets/bottles/Horilky/UkrainskaOryginalna/ukrainska_oryginalna.svg";
-import { ReactComponent as Svyatkova } from "../../assets/bottles/Horilky/Svyatkova/svyatkova.svg";
-import { ReactComponent as Perlova } from "../../assets/bottles/Horilky/Perlova/perlova.svg";
-import { ReactComponent as Chysta } from "../../assets/bottles/Horilky/Chysta/chysta.svg";
-import { ReactComponent as Lymonna } from "../../assets/bottles/TinctureAndCordials/limonna.svg";
-import { ReactComponent as MedovaZPercem } from "../../assets/bottles/TinctureAndCordials/medova_z_percem.svg";
-import { ReactComponent as Myslyvska } from "../../assets/bottles/TinctureAndCordials/myslyvska.svg";
-import { ReactComponent as UkrajinskaZPercem } from "../../assets/bottles/TinctureAndCordials/ukrajinska_z_percem.svg";
-import { ReactComponent as OLimone } from "../../assets/bottles/TinctureAndCordials/o_limone.svg";
-import { ReactComponent as Slyvyanka } from "../../assets/bottles/TinctureAndCordials/slyvyanka.svg";
-import { ReactComponent as Spotykach } from "../../assets/bottles/TinctureAndCordials/spotykach.svg";
-import { ReactComponent as Zubrivka } from "../../assets/bottles/TinctureAndCordials/zubrivka.svg";
-import { ReactComponent as Percovka } from "../../assets/bottles/TinctureAndCordials/percovka.svg";
-import { ReactComponent as Dnister } from "../../assets/bottles/BalzamsAndLiquors/dnister.svg";
-import { ReactComponent as Vyshnevyj } from "../../assets/bottles/BalzamsAndLiquors/vyshnevyj.svg";
-import { ReactComponent as Kavovuy } from "../../assets/bottles/BalzamsAndLiquors/kavovyj.svg";
-import { ReactComponent as Lymonnyj } from "../../assets/bottles/BalzamsAndLiquors/lymonnyj.svg";
-import { ReactComponent as StaryjRynok } from "../../assets/bottles/BalzamsAndLiquors/staryj_rynok.svg";
-import { ReactComponent as Shokoladnyj } from "../../assets/bottles/BalzamsAndLiquors/shokoladnyj.svg";
-import { ReactComponent as Vynnuj } from "../../assets/bottles/Vinegars/vynnyj.svg";
-import { ReactComponent as Spyrtovyj } from "../../assets/bottles/Vinegars/spyrtovyj.svg";
-import { ReactComponent as Jabluchnyj } from "../../assets/bottles/Vinegars/jabluchnyj.svg";
-import { ReactComponent as Balsamico } from "../../assets/bottles/Vinegars/balsamico.svg";
+import { ReactComponent as DavnyaLegenda } from "../../assets/icons/bottles/HorilkyPremium/LvivskaGorilka/davnya-legenda.svg";
+import { ReactComponent as LvivskaPrem } from "../../assets/icons/bottles/HorilkyPremium/LvivskaGorilka/lvivska-prem.svg";
+import { ReactComponent as Zolotusta } from "../../assets/icons/bottles/HorilkyPremium/LvivskaGorilka/zolotusta.svg";
+import { ReactComponent as Sriblyasta } from "../../assets/icons/bottles/HorilkyPremium/LvivskaGorilka/sriblyasta.svg";
+import { ReactComponent as LvivskiySkarb } from "../../assets/icons/bottles/HorilkyPremium/ZolotoKarpat/lvivisky-skarb.svg";
+import { ReactComponent as ZolotoKarpat } from "../../assets/icons/bottles/HorilkyPremium/ZolotoKarpat/zoloto-karpat.svg";
+import { ReactComponent as VolodarPremium } from "../../assets/icons/bottles/HorilkyPremium/Volodar/volodar.svg";
+import { ReactComponent as LvivskaYuvileuna } from "../../assets/icons/bottles/HorilkyPremium/LvivskaYuvileuna/yuvileyna.svg";
+import { ReactComponent as PremiumLviv } from "../../assets/icons/bottles/HorilkyPremium/PremiumLviv/premium_lviv.svg";
+import { ReactComponent as PremiumLvivGold } from "../../assets/icons/bottles/HorilkyPremium/PremiumLviv/premium_lviv_gold.svg";
+import { ReactComponent as PremiumLvivPlatinum } from "../../assets/icons/bottles/HorilkyPremium/PremiumLviv/premiun_lviv_platinum.svg";
+import { ReactComponent as SlavaPremium } from "../../assets/icons/bottles/HorilkyPremium/SlavaPremium/slava_premium.svg";
+import { ReactComponent as Champion } from "../../assets/icons/bottles/HorilkyPremium/Champion/champion.svg";
+import { ReactComponent as Classic } from "../../assets/icons/bottles/Horilky/Vozhak/classic.svg";
+import { ReactComponent as Original } from "../../assets/icons/bottles/Horilky/Vozhak/original.svg";
+import { ReactComponent as Special } from "../../assets/icons/bottles/Horilky/Vozhak/special.svg";
+import { ReactComponent as Vertep } from "../../assets/icons/bottles/Horilky/Volodar/vertep.svg";
+import { ReactComponent as Volodar } from "../../assets/icons/bottles/Horilky/Volodar/volodar.svg";
+import { ReactComponent as Lvivska } from "../../assets/icons/bottles/Horilky/Volodar/lvivska.svg";
+import { ReactComponent as ZoloteKilce } from "../../assets/icons/bottles/Horilky/Volodar/zolote_kilce.svg";
+import { ReactComponent as Stolova } from "../../assets/icons/bottles/Horilky/Volodar/stolova.svg";
+import { ReactComponent as Halytska } from "../../assets/icons/bottles/Horilky/Halytska/halytska.svg";
+import { ReactComponent as HalytskaZMjatoy } from "../../assets/icons/bottles/Horilky/Halytska/halytska_z_mjatoy.svg";
+import { ReactComponent as HalytskaZMedom } from "../../assets/icons/bottles/Horilky/Halytska/halytska_z_medom.svg";
+import { ReactComponent as HalytskaNaTravah } from "../../assets/icons/bottles/Horilky/Halytska/halytska_na_travah.svg";
+import { ReactComponent as Lemberg } from "../../assets/icons/bottles/Horilky/Lemberg/lemberg.svg";
+import { ReactComponent as Velychna } from "../../assets/icons/bottles/Horilky/Lemberg/velychna.svg";
+import { ReactComponent as Vyshukana } from "../../assets/icons/bottles/Horilky/Lemberg/vyshukana.svg";
+import { ReactComponent as Berezova } from "../../assets/icons/bottles/Horilky/LvivskaHorilka/berezova.svg";
+import { ReactComponent as Holodna } from "../../assets/icons/bottles/Horilky/LvivskaHorilka/holodna.svg";
+import { ReactComponent as Lehka } from "../../assets/icons/bottles/Horilky/LvivskaHorilka/lehka.svg";
+import { ReactComponent as Micna } from "../../assets/icons/bottles/Horilky/LvivskaHorilka/micna.svg";
+import { ReactComponent as Pravdyva } from "../../assets/icons/bottles/Horilky/LvivskaHorilka/pravdyva.svg";
+import { ReactComponent as Shljahetna } from "../../assets/icons/bottles/Horilky/LvivskaHorilka/shljahetna.svg";
+import { ReactComponent as Moskovska } from "../../assets/icons/bottles/Horilky/MoskovskaOsoblyva/moskovska.svg";
+import { ReactComponent as Diamond } from "../../assets/icons/bottles/Horilky/Perfect/diamond.svg";
+import { ReactComponent as Lemon } from "../../assets/icons/bottles/Horilky/Perfect/lemon.svg";
+import { ReactComponent as Orange } from "../../assets/icons/bottles/Horilky/Perfect/orange.svg";
+import { ReactComponent as Premium } from "../../assets/icons/bottles/Horilky/Perfect/premium.svg";
+import { ReactComponent as Silver } from "../../assets/icons/bottles/Horilky/Perfect/silver.svg";
+import { ReactComponent as Prestige } from "../../assets/icons/bottles/Horilky/Perfect/prestige.svg";
+import { ReactComponent as Slava } from "../../assets/icons/bottles/Horilky/Volodar/slava.svg";
+import { ReactComponent as Stolychna } from "../../assets/icons/bottles/Horilky/Stolychna/stolychna.svg";
+import { ReactComponent as UkrainskaOryginalna } from "../../assets/icons/bottles/Horilky/UkrainskaOryginalna/ukrainska_oryginalna.svg";
+import { ReactComponent as Svyatkova } from "../../assets/icons/bottles/Horilky/Svyatkova/svyatkova.svg";
+import { ReactComponent as Perlova } from "../../assets/icons/bottles/Horilky/Perlova/perlova.svg";
+import { ReactComponent as Chysta } from "../../assets/icons/bottles/Horilky/Chysta/chysta.svg";
+import { ReactComponent as Lymonna } from "../../assets/icons/bottles/TinctureAndCordials/limonna.svg";
+import { ReactComponent as MedovaZPercem } from "../../assets/icons/bottles/TinctureAndCordials/medova_z_percem.svg";
+import { ReactComponent as Myslyvska } from "../../assets/icons/bottles/TinctureAndCordials/myslyvska.svg";
+import { ReactComponent as UkrajinskaZPercem } from "../../assets/icons/bottles/TinctureAndCordials/ukrajinska_z_percem.svg";
+import { ReactComponent as OLimone } from "../../assets/icons/bottles/TinctureAndCordials/o_limone.svg";
+import { ReactComponent as Slyvyanka } from "../../assets/icons/bottles/TinctureAndCordials/slyvyanka.svg";
+import { ReactComponent as Spotykach } from "../../assets/icons/bottles/TinctureAndCordials/spotykach.svg";
+import { ReactComponent as Zubrivka } from "../../assets/icons/bottles/TinctureAndCordials/zubrivka.svg";
+import { ReactComponent as Percovka } from "../../assets/icons/bottles/TinctureAndCordials/percovka.svg";
+import { ReactComponent as Dnister } from "../../assets/icons/bottles/BalzamsAndLiquors/dnister.svg";
+import { ReactComponent as Vyshnevyj } from "../../assets/icons/bottles/BalzamsAndLiquors/vyshnevyj.svg";
+import { ReactComponent as Kavovuy } from "../../assets/icons/bottles/BalzamsAndLiquors/kavovyj.svg";
+import { ReactComponent as Lymonnyj } from "../../assets/icons/bottles/BalzamsAndLiquors/lymonnyj.svg";
+import { ReactComponent as StaryjRynok } from "../../assets/icons/bottles/BalzamsAndLiquors/staryj_rynok.svg";
+import { ReactComponent as Shokoladnyj } from "../../assets/icons/bottles/BalzamsAndLiquors/shokoladnyj.svg";
+import { ReactComponent as Vynnuj } from "../../assets/icons/bottles/Vinegars/vynnyj.svg";
+import { ReactComponent as Spyrtovyj } from "../../assets/icons/bottles/Vinegars/spyrtovyj.svg";
+import { ReactComponent as Jabluchnyj } from "../../assets/icons/bottles/Vinegars/jabluchnyj.svg";
+import { ReactComponent as Balsamico } from "../../assets/icons/bottles/Vinegars/balsamico.svg";
+
+import original from "../../assets/images/bottles/original.png";
 
 export const SidebarData = [
   {
@@ -78,7 +80,7 @@ export const SidebarData = [
             id: "01",
             title: "Володар преміум",
             path: "/production/01",
-            image: <VolodarPremium />,
+            icon: <VolodarPremium />,
             vol: "0.75л",
             alc: "40%",
             composition:
@@ -92,19 +94,19 @@ export const SidebarData = [
         title: "Золото карпат",
         path: "/products",
         subNav: [
-          { 
+          {
             id: "02",
             title: "Золото Карпат",
             path: "/production/02",
-            image: <ZolotoKarpat />,
+            icon: <ZolotoKarpat />,
             vol: "0.75л",
             alc: "40%",
           },
-          { 
+          {
             id: "03",
             title: "Львівський Скарб",
             path: "/production/03",
-            image: <LvivskiySkarb />,
+            icon: <LvivskiySkarb />,
             vol: "0.75л",
             alc: "40%",
           },
@@ -117,28 +119,28 @@ export const SidebarData = [
           {
             title: "Давня легенда",
             path: "/overview/users",
-            image: <DavnyaLegenda />,
+            icon: <DavnyaLegenda />,
             vol: "0.5л, 0.7л",
             alc: "40%",
           },
           {
             title: "Львівська горілка",
             path: "/overview/users",
-            image: <LvivskaPrem />,
+            icon: <LvivskaPrem />,
             vol: "0.5л, 0.7л",
             alc: "40%",
           },
           {
             title: "Золотиста",
             path: "/overview/users",
-            image: <Zolotusta />,
+            icon: <Zolotusta />,
             vol: "0.5л, 0.7л",
             alc: "40%",
           },
           {
             title: "Срібляста",
             path: "/overview/users",
-            image: <Sriblyasta />,
+            icon: <Sriblyasta />,
             vol: "0.5л, 0.7л",
             alc: "40%",
           },
@@ -151,7 +153,7 @@ export const SidebarData = [
           {
             title: "Львівська Ювілейна",
             path: "/overview/users",
-            image: <LvivskaYuvileuna />,
+            icon: <LvivskaYuvileuna />,
             vol: "0.75л",
             alc: "40%",
           },
@@ -165,7 +167,7 @@ export const SidebarData = [
             id: "4",
             title: "Преміум Львів",
             path: "/overview/users",
-            image: <PremiumLviv />,
+            icon: <PremiumLviv />,
             vol: "0.7л",
             alc: "40%",
           },
@@ -173,14 +175,14 @@ export const SidebarData = [
             id: "5",
             title: "Преміум Львів Золото",
             path: "/overview/users",
-            image: <PremiumLvivGold />,
+            icon: <PremiumLvivGold />,
             vol: "0.7л",
             alc: "38%",
           },
           {
             title: "Преміум Львів Платина",
             path: "/overview/users",
-            image: <PremiumLvivPlatinum />,
+            icon: <PremiumLvivPlatinum />,
             vol: "0.7л",
             alc: "40%",
           },
@@ -193,7 +195,7 @@ export const SidebarData = [
           {
             title: "Слава преміум",
             path: "/overview/users",
-            image: <SlavaPremium />,
+            icon: <SlavaPremium />,
             vol: "0.75л",
             alc: "40%",
           },
@@ -206,7 +208,7 @@ export const SidebarData = [
           {
             title: "Чемпіон",
             path: "/overview/users",
-            image: <Champion />,
+            icon: <Champion />,
             vol: "0.75л",
             alc: "40%",
           },
@@ -217,30 +219,32 @@ export const SidebarData = [
 
   {
     title: "Горілки",
-    path: "/horilky",
     menu: [
       {
         title: "Вожак",
-        path: "/horilky/vozhak",
         subNav: [
-          {
+          { id: "9",
             title: "Вожак класичний",
-            path: "/horilky/vozhak/classic",
-            image: <Classic />,
+            path: "production/horilky/9",
+            icon: <Classic />,
             vol: "0.5л, 0.7л",
             alc: "40%",
           },
           {
+            id: "10",
             title: "Вожак оригінальний",
-            path: "/horilky/vozhak/original",
-            image: <Original />,
+            path: "production/horilky/10",
+            icon: <Original />,
             vol: "0.5л, 0.7л",
             alc: "40%",
+            image: original,
+            description: 'Горілка Вожак Оригінальна має оксамитовий смак із відтінком терпкості.  Виготовлена з додаванням кропу та житнього солоду на основі спирту "Люкс" та спеціально підготовленої води, що видобувається в передгір`ї українських Карпат.',
+            composition: 'Вода питна підготовлена, спирт етиловий ректифікований “Люкс”, цукор, ароматні спирти житнього солоду та кропу запашного.',
           },
           {
             title: "Вожак особливий",
             path: "/horilky/vozhak/special",
-            image: <Special />,
+            icon: <Special />,
             vol: "0.5л, 0.7л",
             alc: "40%",
           },
@@ -253,42 +257,42 @@ export const SidebarData = [
           {
             title: "Вертеп",
             path: "",
-            image: <Vertep />,
+            icon: <Vertep />,
             vol: "0.5л",
             alc: "40%",
           },
           {
             title: "Володар",
             path: "",
-            image: <Volodar />,
+            icon: <Volodar />,
             vol: "0.05л, 0.25л, 0.375л, 0.5л, 0.7л, 1.75л",
             alc: "40%",
           },
           {
             title: "Золоте кільце",
             path: "",
-            image: <ZoloteKilce />,
+            icon: <ZoloteKilce />,
             vol: "0.25л, 0.5л",
             alc: "40%",
           },
           {
             title: "Львівська",
             path: "",
-            image: <Lvivska />,
+            icon: <Lvivska />,
             vol: "0.25л, 0.5л, 1.75л",
             alc: "40%",
           },
           {
             title: "Слава",
             path: "",
-            image: <Slava />,
+            icon: <Slava />,
             vol: "0.05л, 0.25л, 0.375л 0.5л, 0.7л, 1.75л",
             alc: "40%",
           },
           {
             title: "Столова",
             path: "",
-            image: <Stolova />,
+            icon: <Stolova />,
             vol: "0.05л, 0.25л, 0.375л 0.5л, 0.7л, 1.75л",
             alc: "40%",
           },
@@ -301,28 +305,28 @@ export const SidebarData = [
           {
             title: "Галицька",
             path: "",
-            image: <Halytska />,
+            icon: <Halytska />,
             vol: "0.2л, 0.5л",
             alc: "40%",
           },
           {
             title: "Галицька з гірським медом",
             path: "",
-            image: <HalytskaZMedom />,
+            icon: <HalytskaZMedom />,
             vol: "0.5л",
             alc: "40%",
           },
           {
             title: "Галицька з м'ятою",
             path: "",
-            image: <HalytskaZMjatoy />,
+            icon: <HalytskaZMjatoy />,
             vol: "0.5л",
             alc: "40%",
           },
           {
             title: "Галицька на карпатських травах",
             path: "",
-            image: <HalytskaNaTravah />,
+            icon: <HalytskaNaTravah />,
             vol: "0.5л",
             alc: "40%",
           },
@@ -335,21 +339,21 @@ export const SidebarData = [
           {
             title: "Лемберг",
             path: "",
-            image: <Lemberg />,
+            icon: <Lemberg />,
             vol: "0.5л, 0.7л",
             alc: "40%",
           },
           {
             title: "Вишукана",
             path: "",
-            image: <Vyshukana />,
+            icon: <Vyshukana />,
             vol: "0.5л, 0.7л",
             alc: "38%",
           },
           {
             title: "Велична",
             path: "",
-            image: <Velychna />,
+            icon: <Velychna />,
             vol: "0.5л, 0.7л",
             alc: "40%",
           },
@@ -362,42 +366,42 @@ export const SidebarData = [
           {
             title: "Львівська горілка Легка",
             path: "",
-            image: <Lehka />,
+            icon: <Lehka />,
             vol: "0.1л, 0.375л, 0.5л",
             alc: "38%",
           },
           {
             title: "Львівська горілка Правдива",
             path: "",
-            image: <Pravdyva />,
+            icon: <Pravdyva />,
             vol: "0.1л, 0.25л, 0.375л, 0.5л, 0.7л",
             alc: "40%",
           },
           {
             title: "Львівська горілка Холодна",
             path: "",
-            image: <Holodna />,
+            icon: <Holodna />,
             vol: "0.1л, 0.25л, 0.375л, 0.5л, 0.7л",
             alc: "40%",
           },
           {
             title: "Львівська горілка Шляхетна ",
             path: "",
-            image: <Shljahetna />,
+            icon: <Shljahetna />,
             vol: "0.1л, 0.25л, 0.375л, 0.5л, 0.7л",
             alc: "40%",
           },
           {
             title: "Львівська Брезова ",
             path: "",
-            image: <Berezova />,
+            icon: <Berezova />,
             vol: "0.1л, 0.5л",
             alc: "40%",
           },
           {
             title: "Львівська горілка Міцна",
             path: "",
-            image: <Micna />,
+            icon: <Micna />,
             vol: "0.5л",
             alc: "56%",
           },
@@ -410,7 +414,7 @@ export const SidebarData = [
           {
             title: "Московська особлива",
             path: "",
-            image: <Moskovska />,
+            icon: <Moskovska />,
             vol: "0.25л, 0.5л",
             alc: "40%",
           },
@@ -423,42 +427,42 @@ export const SidebarData = [
           {
             title: "Перфект Айс Діамант",
             path: "",
-            image: <Diamond />,
+            icon: <Diamond />,
             vol: "0.5л",
             alc: "40%",
           },
           {
             title: "Перфект Айс Преміум",
             path: "",
-            image: <Premium />,
+            icon: <Premium />,
             vol: "0.5л",
             alc: "40%",
           },
           {
             title: "Перфект Айс Престиж",
             path: "",
-            image: <Prestige />,
+            icon: <Prestige />,
             vol: "0.5л",
             alc: "40%",
           },
           {
             title: "Перфект Айс Срібна",
             path: "",
-            image: <Silver />,
+            icon: <Silver />,
             vol: "0.5л",
             alc: "38%",
           },
           {
             title: "Перфект Апельсин",
             path: "",
-            image: <Orange />,
+            icon: <Orange />,
             vol: "0.5л",
             alc: "40%",
           },
           {
             title: "Перфект Лимон",
             path: "",
-            image: <Lemon />,
+            icon: <Lemon />,
             vol: "0.5л",
             alc: "38%",
           },
@@ -471,7 +475,7 @@ export const SidebarData = [
           {
             title: "Столична",
             path: "",
-            image: <Stolychna />,
+            icon: <Stolychna />,
             vol: "0.25л, 0.5л",
             alc: "40%",
           },
@@ -484,7 +488,7 @@ export const SidebarData = [
           {
             title: "Українська оригінальна",
             path: "",
-            image: <UkrainskaOryginalna />,
+            icon: <UkrainskaOryginalna />,
             vol: "0.25л, 0.5л",
             alc: "40%",
           },
@@ -497,7 +501,7 @@ export const SidebarData = [
           {
             title: "Святкова",
             path: "",
-            image: <Svyatkova />,
+            icon: <Svyatkova />,
             vol: "0.35л",
             alc: "40%",
           },
@@ -510,7 +514,7 @@ export const SidebarData = [
           {
             title: "Perlova",
             path: "",
-            image: <Perlova />,
+            icon: <Perlova />,
             vol: "0.35л",
             alc: "40%",
           },
@@ -523,7 +527,7 @@ export const SidebarData = [
           {
             title: "Чиста",
             path: "",
-            image: <Chysta />,
+            icon: <Chysta />,
             vol: "0.35л",
             alc: "37.5%",
           },
@@ -542,7 +546,7 @@ export const SidebarData = [
           {
             title: "Лимонна",
             path: "",
-            image: <Lymonna />,
+            icon: <Lymonna />,
             vol: "0.5л",
             alc: "40%",
           },
@@ -555,7 +559,7 @@ export const SidebarData = [
           {
             title: "Льівська медова з перцем",
             path: "",
-            image: <MedovaZPercem />,
+            icon: <MedovaZPercem />,
             vol: "0.1л, 0.5л",
             alc: "40%",
           },
@@ -568,7 +572,7 @@ export const SidebarData = [
           {
             title: "Мисливська",
             path: "",
-            image: <Myslyvska />,
+            icon: <Myslyvska />,
             vol: "0.2л",
             alc: "45%",
           },
@@ -581,7 +585,7 @@ export const SidebarData = [
           {
             title: "",
             path: "Українська з перцем",
-            image: <UkrajinskaZPercem />,
+            icon: <UkrajinskaZPercem />,
             vol: "0.25л, 0.375л, 0.5л",
             alc: "40%",
           },
@@ -594,7 +598,7 @@ export const SidebarData = [
           {
             title: "О Лімоне",
             path: "",
-            image: <OLimone />,
+            icon: <OLimone />,
             vol: "0.35л",
             alc: "25%",
           },
@@ -607,7 +611,7 @@ export const SidebarData = [
           {
             title: "Слив'янка Українська",
             path: "",
-            image: <Slyvyanka />,
+            icon: <Slyvyanka />,
             vol: "0.35л",
             alc: "18%",
           },
@@ -620,7 +624,7 @@ export const SidebarData = [
           {
             title: "Спотикач Український",
             path: "",
-            image: <Spotykach />,
+            icon: <Spotykach />,
             vol: "0.35л",
             alc: "20%",
           },
@@ -633,7 +637,7 @@ export const SidebarData = [
           {
             title: "Зубрiвка",
             path: "",
-            image: <Zubrivka />,
+            icon: <Zubrivka />,
             vol: "0.35л",
             alc: "40%",
           },
@@ -646,7 +650,7 @@ export const SidebarData = [
           {
             title: "Перцовка",
             path: "",
-            image: <Percovka />,
+            icon: <Percovka />,
             vol: "0.35л",
             alc: "35%",
           },
@@ -665,7 +669,7 @@ export const SidebarData = [
           {
             title: "Дністер",
             path: "",
-            image: <Dnister />,
+            icon: <Dnister />,
             vol: "0.2л, 0.5л",
             alc: "40%",
           },
@@ -678,7 +682,7 @@ export const SidebarData = [
           {
             title: "Вишневий",
             path: "",
-            image: <Vyshnevyj />,
+            icon: <Vyshnevyj />,
             vol: "0.5л",
             alc: "25%",
           },
@@ -691,7 +695,7 @@ export const SidebarData = [
           {
             title: "Кавовий",
             path: "",
-            image: <Kavovuy />,
+            icon: <Kavovuy />,
             vol: "0.5л",
             alc: "30%",
           },
@@ -704,7 +708,7 @@ export const SidebarData = [
           {
             title: "Лимонний",
             path: "",
-            image: <Lymonnyj />,
+            icon: <Lymonnyj />,
             vol: "0.5л",
             alc: "25%",
           },
@@ -717,7 +721,7 @@ export const SidebarData = [
           {
             title: "Старий ринок",
             path: "",
-            image: <StaryjRynok />,
+            icon: <StaryjRynok />,
             vol: "0.5л",
             alc: "45%",
           },
@@ -730,7 +734,7 @@ export const SidebarData = [
           {
             title: "Шоколадний",
             path: "",
-            image: <Shokoladnyj />,
+            icon: <Shokoladnyj />,
             vol: "0.5л",
             alc: "30%",
           },
@@ -749,7 +753,7 @@ export const SidebarData = [
           {
             title: "Оцет винний ",
             path: "",
-            image: <Vynnuj />,
+            icon: <Vynnuj />,
             vol: "0.33л",
             strength: "6%",
           },
@@ -762,7 +766,7 @@ export const SidebarData = [
           {
             title: "Оцет спиртовий ",
             path: "",
-            image: <Spyrtovyj />,
+            icon: <Spyrtovyj />,
             vol: "0.33л, 0.5л",
             strength: "9%",
           },
@@ -775,7 +779,7 @@ export const SidebarData = [
           {
             title: "Оцет яблучний ",
             path: "",
-            image: <Jabluchnyj />,
+            icon: <Jabluchnyj />,
             vol: "0.33л",
             strength: "6%",
           },
@@ -788,7 +792,7 @@ export const SidebarData = [
           {
             title: "Оцет бальзамний ",
             path: "",
-            image: <Balsamico />,
+            icon: <Balsamico />,
             vol: "0.33л",
             strength: "6%",
           },

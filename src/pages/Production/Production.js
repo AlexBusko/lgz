@@ -3,14 +3,16 @@ import { useParams } from "react-router";
 import { connect } from "react-redux";
 import { setShow, setHide } from "../../redux/actions.js";
 import { SidebarData } from "../../components/Sidebar/SidebarData";
-import "./style.scss";
 import { Container } from "react-bootstrap";
+import { ChevronLeft } from "react-bootstrap-icons";
+import { ReactComponent as Drop } from "../../assets/icons/drop.svg";
+import { ReactComponent as Bottle } from "../../assets/icons/bottle.svg";
+import "./style.scss";
 
 const Production = ({ setHide, setShow, visible }) => {
-  
   const [product, setProduct] = useState();
 
-  const { id } = useParams();
+  const { id, prod } = useParams();
 
   const handleToggle = () => {
     visible ? setHide() : setShow();
@@ -29,21 +31,50 @@ const Production = ({ setHide, setShow, visible }) => {
 
   useEffect(() => {
     setProduct(findNestedObj(SidebarData, "id", id));
-    console.log(id);
+    console.log(prod);
   });
 
   return (
     <Container className="production">
       <div className="image">
-        {product && product.image}
-        <button onClick={handleToggle}>{visible ? "hide" : "show"}</button>
+        <img
+          className="product"
+          src={product && product.image}
+          alt={product && product.title}
+        />
       </div>
       <div className="info">
-        <h1>{product && product.title}</h1>
-        <h1>{product && product.vol}</h1>
-        <h1>{product && product.alc}</h1>
-        <p>{product && product.composition}</p>
-        <p>{product && product.description}</p>
+        <div onClick={handleToggle} className="product-type">
+          <ChevronLeft className="arrow" />
+          <span>{prod === "horilky" && "Горілки"}</span>
+        </div>
+        <h1 className="title">
+          {prod === "horilky" && "Горілка" + " "}"{product && product.title}"
+        </h1>
+        <div className="desk">
+          <div className="column br">
+            <Bottle />
+            <div className="text">
+              <span className="indicator">Об'єм</span>
+              <span>{product && product.vol}</span>
+            </div>
+          </div>
+          <div className="column">
+            <Drop />
+            <div className="text">
+              <span className="indicator">
+                {product && product.strength ? "Міцність" : "Вміст спирту"}
+              </span>
+              <span>{product && product.alc}</span>
+            </div>
+          </div>
+        </div>
+        <p className="composition">
+          <span>Склад:</span>
+          <br />
+          {product && product.composition}
+        </p>
+        <p className="description">{product && product.description}</p>
       </div>
     </Container>
   );

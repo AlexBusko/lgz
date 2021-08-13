@@ -3,10 +3,87 @@
 .production {
   display: flex;
   padding-top: 100px;
+
   .image {
-    color: yellow;
+    display: flex;
+    justify-content: center;
+    min-width: 430px;
+    .product {
+      min-width: 300px;
+    }
   }
+
   .info {
-    color: yellow;
+    .product-type {
+      .arrow {
+        color: $gold;
+        font-size: 18px;
+      }
+      span {
+        margin-left: 10px;
+        color: $gray;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 40px;
+      }
+    }
+
+    .title {
+      font-size: 32px;
+      line-height: 72px;
+      font-weight: 700;
+      color: $black;
+    }
+
+    .desk {
+      display: flex;
+      border-top: 1px solid $light-gray;
+      border-bottom: 1px solid $light-gray;
+
+      .column {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        margin: 16px 0;
+
+        .text {
+          font-size: 14px;
+          line-height: 32px;
+          font-weight: 600;
+          color: $black;
+          margin-left: 16px;
+          display: flex;
+          flex-direction: column;
+          :first-child {
+            
+            font-size: 12px;
+            color: $gray;
+          }
+        }
+      }
+
+      .br {
+        border-right: 1px solid $light-gray;
+        margin-right: 16px;
+      }
+    }
+
+    .composition {
+      color: $black;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 32px;
+      span {
+        color: black;
+        font-size: 19px;
+        font-weight: 900;
+      }
+    }
+    .description {
+      color: $gray;
+      line-height: 32px;
+      font-size: 14px;
+      font-weight: 600;
+    }
   }
 }

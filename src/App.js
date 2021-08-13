@@ -26,7 +26,7 @@ const App = ({visible}) => {
           <Header />
           <Sidebar />
           <Switch>
-            <Route exact path="/production/:id">
+            <Route exact path="/production/:prod/:id">
               <Production />
             </Route>
             <Route exact path="/home">

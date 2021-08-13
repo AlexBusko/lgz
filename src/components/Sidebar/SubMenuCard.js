@@ -6,7 +6,7 @@ const SubMenuCard = ({ item, index }) => {
     <div className="sidebar-card">
       <Link to={item.path} key={index}>
         <div className="content">
-          <div className="bottle">{item.image} </div>
+          <div className="bottle">{item.icon} </div>
           <div className="description">
             <span className="title">{item.title}</span>
             <div className="vol-alc">
