@@ -1,6 +1,6 @@
 import { SHOW, HIDE } from "./types";
 
-export const sidebarReducer = (state = { visible: true }, action) => {
+export const sidebarReducer = (state = { visible: false }, action) => {
   switch (action.type) {
     case SHOW:
       return { ...state, visible: true };
