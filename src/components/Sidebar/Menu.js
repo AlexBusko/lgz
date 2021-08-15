@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { ChevronRight } from "react-bootstrap-icons";
-import { Link } from "react-router-dom";
 import SubMenu from "./SubMenu";
 import "./style.scss";
 

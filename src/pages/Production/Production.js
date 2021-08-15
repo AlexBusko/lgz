@@ -32,7 +32,7 @@ const Production = ({ setHide, setShow, visible }) => {
   useEffect(() => {
     setProduct(findNestedObj(SidebarData, "id", id));
     console.log(prod);
-  });
+  }, [prod, id]);
 
   return (
     <Container className="production">
@@ -49,7 +49,7 @@ const Production = ({ setHide, setShow, visible }) => {
           <span>{prod === "horilky" && "Горілки"}</span>
         </div>
         <h1 className="title">
-          {prod === "horilky" && "Горілка" + " "}"{product && product.title}"
+          {prod === "horilky" && "Горілка "}"{product && product.title}"
         </h1>
         <div className="desk">
           <div className="column br">
