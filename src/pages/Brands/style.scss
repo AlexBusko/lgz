@@ -4,7 +4,11 @@
     width: 200px;
     height: 180px;
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 12px 20px;
+    .image {
+      width: 100%;
+    }
   }
 }
